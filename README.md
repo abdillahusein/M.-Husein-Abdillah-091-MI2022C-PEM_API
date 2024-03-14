@@ -32,6 +32,8 @@ UNIVERSITAS NEGERI SURABAYA
 2.	Post 
 
  
+![Screenshot 2024-03-13 212053](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/917173f4-83b1-4a0c-aa3f-308dcaf586fb)
+![Screenshot 2024-03-13 212109](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/d012de49-03e3-4aa0-9d18-b0b85439ad02)
 
 
  
@@ -40,25 +42,32 @@ UNIVERSITAS NEGERI SURABAYA
 3.	Get
 
  
+![Screenshot 2024-03-13 212231](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/22332822-9c0b-457c-b9d0-62ef6b37e13a)
+![Screenshot 2024-03-13 212240](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/e0a886fe-a464-4f03-a768-1c1a13021d1f)
 
  
 
 
 4.	Put 
 
- 
+ ![Screenshot 2024-03-13 212302](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/7bc72189-0119-4908-b78f-afc88c13ba57)
+![Screenshot 2024-03-13 212333](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/0cb2175a-f54c-43a2-9a9d-2cf32ef28dfa)
+
 
  
 
 
 5.	Delete 
 
- 
+ ![Screenshot 2024-03-13 212420](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/ef1c596d-4620-480e-8dcf-d20675b3ec10)
+![Screenshot 2024-03-13 212433](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/945dbfd4-75c5-43b2-a478-c3fd6fb4af6f)
+
  
 
 	Source Code dokumentasi OpenApi menggunakan format json.
 
- 
+ ![image](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/78110230-1b53-4297-98d9-15e73e8dcba7)
+
 
  
 
