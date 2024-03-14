@@ -67,6 +67,8 @@ UNIVERSITAS NEGERI SURABAYA
 	Source Code dokumentasi OpenApi menggunakan format json.
 
  ![image](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/78110230-1b53-4297-98d9-15e73e8dcba7)
+![image](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/9c2232f8-edbd-42d4-b24a-2421840d9cb2)
+![image](https://github.com/abdillahusein/M.-Husein-Abdillah-091-MI2022C-PEM_API/assets/124503163/f8f8cea4-38a8-40f3-b773-f71d71b16c5e)
 
 
  
