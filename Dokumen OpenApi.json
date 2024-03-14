@@ -1,0 +1,149 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+      "title": "Perpustakaan API",
+      "version": "1.0",
+      "description": "API untuk mengelola data buku di perpustakaan"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:8080"
+      }
+    ],
+    "paths": {
+      "/buku": {
+        "get": {
+          "summary": "Dapatkan daftar semua buku",
+          "operationId": "getBookList",
+          "responses": {
+            "200": {
+              "description": "Daftar semua buku"
+            }
+          }
+        },
+        "post": {
+          "summary": "Tambahkan buku baru",
+          "operationId": "addNewBook",
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Book"
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "200": {
+              "description": "Data buku berhasil ditambahkan"
+            },
+            "400": {
+              "description": "Salah satu atau lebih field tidak lengkap"
+            }
+          }
+        }
+      },
+      "/buku/{id}": {
+        "get": {
+          "summary": "Dapatkan detail buku berdasarkan ID",
+          "operationId": "getBookDetails",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "integer"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Detail buku"
+            },
+            "404": {
+              "description": "Buku tidak ditemukan"
+            }
+          }
+        },
+        "put": {
+          "summary": "Edit data buku berdasarkan ID",
+          "operationId": "editBook",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "integer"
+              }
+            }
+          ],
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Book"
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "200": {
+              "description": "Data buku berhasil diperbarui"
+            },
+            "400": {
+              "description": "ID tidak diberikan atau salah satu atau lebih field tidak lengkap"
+            },
+            "404": {
+              "description": "Buku tidak ditemukan"
+            }
+          }
+        },
+        "delete": {
+          "summary": "Hapus buku berdasarkan ID",
+          "operationId": "deleteBook",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "integer"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Data buku berhasil dihapus"
+            },
+            "404": {
+              "description": "Buku tidak ditemukan"
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "Book": {
+          "type": "object",
+          "properties": {
+            "judul": {
+              "type": "string"
+            },
+            "penulis": {
+              "type": "string"
+            },
+            "tahun_terbit": {
+              "type": "integer"
+            }
+          },
+          "required": ["judul", "penulis", "tahun_terbit"]
+        }
+      }
+    }
+  }
+  
